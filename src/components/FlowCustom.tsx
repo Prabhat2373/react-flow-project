@@ -78,6 +78,8 @@ const FlowCustom = () => {
     const newNode = {
       id: getNodeId(),
       data: { label: 'Added node' },
+      class: 'customNode',
+      type: 'custom',
       position: {
         x: Math.random() * window.innerWidth - 100,
         y: Math.random() * window.innerHeight,
